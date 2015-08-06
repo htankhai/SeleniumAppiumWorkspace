@@ -1,0 +1,9 @@
+package jenkinsSelenium;
+
+public class SeleniumJenkins {
+
+	@Test
+	public void startTestInJenkins(){
+		System.out.println("Start in Jenkins project");
+	}
+}

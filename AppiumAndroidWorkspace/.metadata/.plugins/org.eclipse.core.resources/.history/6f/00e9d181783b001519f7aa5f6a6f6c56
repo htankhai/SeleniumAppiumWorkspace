@@ -1,0 +1,16 @@
+package appium.WebApp;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class WebAppAppium {
+
+	public static void main(String[] args) {
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities.setCapability("browserName", "");
+		capabilities.setCapability("deviceName", "SimulatorGalaxy");
+		capabilities.setCapability("platformName", "Android");
+		capabilities.setCapability("platformVersion","5.0.1 " );
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;GoogleChromeApk&apos; to &apos;googleChromeApk&apos;&#x0D;&#x0A;- Original project: &apos;Appium.GoogleChromeApk&apos;&#x0D;&#x0A;- Original element: &apos;Appium.GoogleChromeApk/src/test/java/GoogleChromeApk&apos;&#x0D;&#x0A;- Renamed element: &apos;Appium.GoogleChromeApk/src/test/java/googleChromeApk&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;GoogleChromeApk&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;GoogleChromeApk" name="googleChromeApk" qualified="false" references="true" stamp="1438779823897" textual="false" version="1.0"/>
+</session>

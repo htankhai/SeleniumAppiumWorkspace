@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.Appium.Maven/src/test/java/chrome_appium/com.google.android.gms-v7.8.95-Android-2.3.apk&apos; to &apos;com.google.android-2.3.apk&apos;" description="Rename resource &apos;com.google.android.gms-v7.8.95-Android-2.3.apk&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/chrome_appium/com.google.android.gms-v7.8.95-Android-2.3.apk" name="com.google.android-2.3.apk" stamp="1438613131609" updateReferences="true"/>
+</session>
