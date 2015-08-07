@@ -1,0 +1,10 @@
+package actions.MouseHover;
+
+public class MouseHoverMenu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

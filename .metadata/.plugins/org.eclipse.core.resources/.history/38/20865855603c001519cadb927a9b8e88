@@ -1,0 +1,10 @@
+package actions.MouseHover;
+//With the actions object you should first move the menu title, and then move to the sub menu item and click it.
+public class MouseHoverMenu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

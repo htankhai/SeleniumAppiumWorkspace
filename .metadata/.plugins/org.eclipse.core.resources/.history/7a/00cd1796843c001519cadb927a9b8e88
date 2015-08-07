@@ -1,0 +1,74 @@
+package testCase;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+
+public class StateFarmTest {
+	WebDriver driver = new FirefoxDriver();
+	private int invalidImageCount;
+
+	HomePage homePage = new HomePage(driver);
+	private WebElement imgElement;
+
+	@BeforeClass
+	public void setUp() {
+
+		driver.get("https://www.statefarm.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//driver.navigate().refresh();
+	}
+
+
+	//@Test
+	public void getHomepageTitle(){
+		//verify home page title
+		homePage.homePageTitle();
+	}
+
+	//HomePageTest
+	//@Test
+	public void verifyHomePageImages(){
+		//verify valid images
+		homePage.validateInvalidImages();
+		homePage.verifyimageActive(imgElement);
+	}
+
+	//@Test//select option and enter zip code and getting quote of them
+	public void getQuotefromHomePage() throws InterruptedException{
+		//Select "Auto", "Homeowners", "Condo Owners", "Renters" quote from Select quote
+		homePage.Auto_Homeonwers_Quote_selectOptionByText(driver.findElement(By.id("sType")), "Auto", "76011");
+
+	}
+
+	//@Test
+	public void getSaveQuote() throws InterruptedException{
+		homePage.saveGetQuote_selectOptionByText(driver.findElement(By.id("sType")), "Homeowners", "76011", "htan.khai@yahoo.com");
+	}
+
+
+
+	//@Test
+	public void switchMenu(){
+		System.out.println("call switch menu");
+		homePage.homePage_SwitchMenu();
+	}
+
+
+	@AfterClass
+	public void tearDown() {
+		if (driver != null)
+			driver.quit();
+	}
+
+
+}

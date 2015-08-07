@@ -1,0 +1,18 @@
+package select;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+public class SelectProduct {
+WebDriver driver;
+
+@Test
+	public void selectProduct(){
+		WebElement element=driver.findElement(By.name("ProductName"));
+		Select se=new Select(element);
+		se.selectByValue("HomeOwners");
+	}
+}

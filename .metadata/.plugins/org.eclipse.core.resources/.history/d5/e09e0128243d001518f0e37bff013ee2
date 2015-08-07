@@ -1,0 +1,21 @@
+package javaAssignment;
+
+public class ObjectEncryption {
+
+	public static void main(String[] args) {
+		StringBuffer strBuffer = new StringBuffer("Object Encryption");
+
+		for ( int i = 0 ;  i < strBuffer.length() ; i ++){
+
+			int temp = 0;
+			temp = (int)strBuffer.charAt(0);
+			temp= temp * 13 ; 
+			temp = temp + 92 ;
+
+			strBuffer.setCharAt(i, (char)temp);
+
+		}
+
+	}
+
+}

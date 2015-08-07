@@ -1,0 +1,15 @@
+package selenium.wait;
+
+
+public class ExplicitlyWait {
+
+	public static void main(String[] args) {
+
+		/*Explicit wait for state dropdown field*/
+	    WebDriverWait wait = new WebDriverWait(driver, 10);
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("statedropdown")));
+	    
+
+	}
+
+}

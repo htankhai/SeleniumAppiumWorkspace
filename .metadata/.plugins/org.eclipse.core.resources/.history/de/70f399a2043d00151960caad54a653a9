@@ -1,0 +1,5 @@
+package actions.MouseHover_SetWindowSize_UploadFile;
+
+public class CssValues {
+
+}

@@ -1,0 +1,16 @@
+package javaScript.alert;
+
+public class PopupAlertHandling {
+	WebDriver driver=new FirefoxDriver();
+	@Test
+	public void handlingAlert() throws InterruptedException
+	{
+		driver.manage().window().maximize();
+		driver.get("file:///C:/path/alerts.html");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[@onclick='alertFunction()']")).click();
+		Alert alert=driver.switchTo().alert();
+		System.out.println(alert.getText());
+		alert.accept();
+	}
+}

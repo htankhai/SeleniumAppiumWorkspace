@@ -1,0 +1,112 @@
+package testCase;
+/*Done
+//ClaimAutoIndividual
+//ClaimAutoBusiness
+//findRepairFacility
+//claimsPropertyBusiness
+ //claimsPropertyIndividual
+ //estatePlanning
+ //lifeInsurance
+ * */
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.SuperPages;
+
+public class StateFarmTest {
+	WebDriver driver = new FirefoxDriver();
+	String baseUrl = "https://www.statefarm.com/"; 
+	
+	private int invalidImageCount;
+
+//======================//Home Page======================================================
+	HomePage homePage = new HomePage(driver);
+	//Get Quote in Home Page
+	private By selectQuote = By.id("sType");
+	
+	//"Auto", "Homeowners", "Condo Owners", "Renters"
+	String autoQuote = "Auto";
+	String homeOwnersQuote  = "Homeowners";
+	String condoOwnersQuote  = "Condo Owners";
+	String rentersQuote  = "Renters";
+	
+	String zipCode = "76011";
+	
+	String email = "htan.khai@yahoo.com";
+	
+	//For Life, Health and Long-Term Care Insurance
+	String lifeQuote = "Life";
+	private By selecteStates = By.id("sState");
+	String selectedState = "Texas";
+
+
+	
+	private WebElement imgElement;
+
+	@BeforeClass
+	public void setUp() {
+		driver.get(baseUrl);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//driver.navigate().refresh();
+	}
+
+
+	//@Test
+	public void getHomepageTitle(){
+		//verify home page title
+		homePage.homePageTitle();
+	}
+
+	//HomePageTest
+	//@Test
+	public void verifyHomePageImages(){
+		//verify valid images
+		homePage.validateInvalidImages();
+		homePage.verifyimageActive(imgElement);
+	}
+
+	//@Test//select option and enter zip code and getting quote of them
+	public void QuoteAuto_Homeowners_CondoOwners_Renters_HomePage() throws InterruptedException{
+		//Select "Auto", "Homeowners", "Condo Owners", "Renters" quote from Select quote
+		homePage.Auto_Homeonwers_Quote_selectOptionByText(driver.findElement(selectQuote), autoQuote , zipCode );
+
+	}
+
+	//@Test
+	public void SaveQuote() throws InterruptedException{
+		homePage.saveGetQuote_selectOptionByText(driver.findElement(selectQuote), homeOwnersQuote , zipCode, email);
+	}
+
+
+	@Test
+	public void life_Health_LongTermCareQuote(){
+		homePage.Life_Health_Long_TermCare_Quote_selectOptionByText(driver.findElement(selectQuote),  lifeQuote, driver.findElement(selecteStates), selectedState);
+	}
+
+
+	//@Test
+	public void switchMenu(){
+		System.out.println("call switch menu");
+		homePage.homePage_SwitchMenu();
+	}
+
+
+	@AfterClass
+	public void tearDown() {
+		if (driver != null)
+			driver.quit();
+	}
+
+
+}

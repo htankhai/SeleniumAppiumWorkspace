@@ -1,0 +1,11 @@
+package propertiesFile;
+
+public class Snippet {
+	Enumeration KeyValues = prop.keys();
+				while (KeyValues.hasMoreElements()) {
+					String key = (String) KeyValues.nextElement();
+					String value = prop.getProperty(key);
+					System.out.println(key + ":- " + value);
+				}
+}
+
