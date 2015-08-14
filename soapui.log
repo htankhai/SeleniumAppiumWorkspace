@@ -1,0 +1,188 @@
+16:56:14,346 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+16:56:14,362 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+16:56:14,362 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+16:56:48,797 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUi/WhiteboxTrainingSoapui-soapui-project.xml]
+16:56:48,828 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'WhiteboxTrainingSoapui' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+16:56:50,664 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+16:56:55,161 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm[Unresolved paths - Warning] -> runInUIThread
+16:56:55,161 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$1
+16:56:55,161 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm: run
+16:57:09,756 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+16:57:12,432 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelActivator
+16:57:12,432 DEBUG [com.eviware.soapui.threads] ModelItemDesktopPanelActivator: run
+16:57:32,630 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [CurrencyConvertorSoap.ConversionRate:Request 1] in 365ms (1623 bytes)
+16:58:00,451 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+16:58:01,983 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelActivator
+16:58:01,983 DEBUG [com.eviware.soapui.threads] ModelItemDesktopPanelActivator: run
+16:58:17,292 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [CurrencyConvertorSoap.ConversionRate:Request 1] in 309ms (382 bytes)
+18:47:54,563 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [CurrencyConvertorSoap.ConversionRate:Request 1] in 525ms (382 bytes)
+18:49:37,353 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [WhiteboxTrainingSoapui] to [C:\Htan\Workspace\SoapUi\WhiteboxTrainingSoapui-soapui-project.xml - 65622 bytes
+18:49:37,353 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:50:03,459 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:50:03,459 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:50:03,459 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:50:08,350 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUi/Mortgage-soapui-project.xml]
+18:50:08,350 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Mortgage' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:50:08,553 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:50:08,585 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlInterfaceDefinition] Loading WSDL: http://www.webservicex.net/MortgageIndex.asmx?WSDL
+18:50:08,600 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning baseInputSource [http://www.webservicex.net/MortgageIndex.asmx?WSDL]
+18:50:08,804 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+18:50:08,866 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+18:50:08,866 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+18:50:08,866 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+18:50:08,866 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+18:50:08,882 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+18:50:08,882 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+18:50:08,882 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+18:50:08,882 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+18:50:08,897 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+18:50:08,897 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [http://www.webservicex.net/MortgageIndex.asmx?WSDL]
+18:50:08,897 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema http://www.webservicex.net/MortgageIndex.asmx?WSDL
+18:50:09,397 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:50:09,538 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:50:18,001 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:50:18,001 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:50:18,001 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:50:22,541 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUi/SimpleGroovyScript-soapui-project.xml]
+18:50:22,541 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'SimpleGroovyScript' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:50:22,572 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:50:30,760 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:50:30,760 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:50:30,760 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:50:33,279 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUi/Weather-Soap-soapui-project.xml]
+18:50:33,279 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Weather Soap' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:50:33,310 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:50:54,625 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt[Rename Project] -> runInUIThread
+18:50:54,625 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$3
+18:50:54,625 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt: run
+18:51:08,636 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt[Rename Project] -> runInUIThread
+18:51:08,636 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$3
+18:51:08,636 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt: run
+18:51:28,402 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt[Rename Project] -> runInUIThread
+18:51:28,402 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$3
+18:51:28,402 DEBUG [com.eviware.soapui.threads] SwtDialogs.prompt: run
+18:51:41,860 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:51:41,860 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:51:41,860 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:53:05,426 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:53:05,442 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:53:05,442 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:53:16,943 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUI-Tutorials/REST-Project-1-soapui-project.xml]
+18:53:16,943 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'REST Project 2' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:53:17,115 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:53:24,793 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:53:24,793 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:53:24,793 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:53:28,048 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUI-Tutorials/Sample-Authentication-Project-soapui-project.xml]
+18:53:28,048 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Sample Authentication Project' is from a newer version (5.0.0-SNAPSHOT) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:53:28,064 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:53:34,350 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:37,120 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:37,729 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelActivator
+18:53:37,729 DEBUG [com.eviware.soapui.threads] ModelItemDesktopPanelActivator: run
+18:53:39,090 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:40,806 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:43,810 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:44,060 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:53:44,075 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [OAuth2 - Browser client.wadl]
+18:53:44,075 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema OAuth2 - Browser client.wadl
+18:53:44,341 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:53:44,654 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:53:44,654 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [OAuth2 - Browser client.wadl]
+18:53:44,654 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema OAuth2 - Browser client.wadl
+18:53:44,841 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:53:50,045 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:52,640 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:53:52,749 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:53:52,749 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [OAuth2 - Desktop client.wadl]
+18:53:52,749 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema OAuth2 - Desktop client.wadl
+18:53:52,937 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:53:53,249 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:53:53,249 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [OAuth2 - Desktop client.wadl]
+18:53:53,249 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema OAuth2 - Desktop client.wadl
+18:53:53,359 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:54:03,033 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel[Close Project] -> runInUIThread
+18:54:03,033 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$2
+18:54:03,033 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel: run
+18:54:07,580 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Sample Authentication Project] to [C:\Htan\Workspace\SoapUI-Tutorials\Sample-Authentication-Project-soapui-project.xml - 7285 bytes
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,580 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:54:07,580 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:54:07,596 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.request.RestRequestDesktopPanel
+18:54:07,877 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.service.RestServiceDesktopPanel
+18:54:07,893 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.resource.RestResourceDesktopPanel
+18:54:07,908 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.resource.RestResourceDesktopPanel
+18:54:07,908 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.method.RestMethodDesktopPanel
+18:54:07,924 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.service.RestServiceDesktopPanel
+18:54:31,549 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:54:31,549 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:54:31,549 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:54:34,272 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUI-Tutorials/Sample-REST-Project-soapui-project.xml]
+18:54:34,272 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Sample REST Project' is from a newer version (5.0.0-SNAPSHOT) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:54:34,303 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:54:37,832 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:54:42,186 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:54:45,748 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:54:46,577 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:06,629 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:07,835 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:09,242 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:09,320 ERROR [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader] Failed to load url [file:/C:/Program%20Files/Eclipse/eclipse/WSDL-WADL/sample-service.wadl]
+18:55:09,320 ERROR [com.eviware.soapui.SoapUI] An error occured [com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException], see error log for details
+18:55:09,398 ERROR [com.eviware.soapui.SoapUI] An error occured [com.eviware.soapui.impl.support.definition.support.InvalidDefinitionException], see error log for details
+18:55:15,315 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:16,268 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelActivator
+18:55:16,268 DEBUG [com.eviware.soapui.threads] ModelItemDesktopPanelActivator: run
+18:55:21,955 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:55:21,955 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:55:21,955 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:55:26,529 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUI-Tutorials/Sample-SOAP-Project-soapui-project.xml]
+18:55:26,531 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Sample SOAP Project Pro' is from a newer version (5.0.0) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:55:26,930 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:55:29,395 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+18:55:29,395 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlInterfaceDefinition] Loading WSDL: WSDL-WADL/sample-service.wsdl
+18:55:29,395 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning baseInputSource [WSDL-WADL/sample-service.wsdl]
+18:55:29,442 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [WSDL-WADL/sample-service.wsdl]
+18:55:29,442 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema WSDL-WADL/sample-service.wsdl
+18:55:29,625 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+18:55:29,718 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:44,818 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+18:55:55,912 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile -> runInUIThread
+18:55:55,912 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtFileDialogs$2
+18:55:55,927 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.openFile: run
+18:55:58,760 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Loaded project from [file:/C:/Htan/Workspace/SoapUI-Tutorials/Sample-REST-Project-soapui-project.xml]
+18:55:58,760 WARN [com.eviware.soapui.impl.wsdl.WsdlProject] Project 'Sample REST Project' is from a newer version (5.0.0-SNAPSHOT) of soapUI than this (4.0.1.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+18:55:58,775 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]
+18:56:04,185 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel[Close Project] -> runInUIThread
+18:56:04,185 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$2
+18:56:04,185 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel: run
+18:56:05,939 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Sample REST Project] to [C:\Htan\Workspace\SoapUI-Tutorials\Sample-REST-Project-soapui-project.xml - 9241 bytes
+18:56:05,939 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:56:05,939 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:56:05,939 DEBUG [com.eviware.soapui.threads] EclipseSoapUIDesktop.closeDesktopPanel -> runInUIThreadAsync
+18:56:05,939 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.wsdl.panels.testsuite.WsdlTestSuiteDesktopPanel
+18:56:05,939 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$2
+18:56:06,048 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync -> EclipseSoapUIDesktop.closeDesktopPanel: com.eviware.soapui.impl.rest.panels.service.RestServiceDesktopPanel
+18:56:28,241 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel[Close Project] -> runInUIThread
+18:56:28,241 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$2
+18:56:28,241 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirmOrCancel: run
+18:56:30,103 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm[Save Project] -> runInUIThread
+18:56:30,103 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$1
+18:56:30,103 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm: run
+18:56:37,142 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Sample REST Project] to [C:\Htan\Workspace\SoapUI-Tutorials\Sample-REST-Project-soapui-project.xml - 9241 bytes
+19:08:19,341 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [WhiteboxTrainingSoapui] to [C:\Htan\Workspace\SoapUi\WhiteboxTrainingSoapui-soapui-project.xml - 65622 bytes
+19:08:19,356 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Mortgage_SoapUi] to [C:\Htan\Workspace\SoapUi\Mortgage-soapui-project.xml - 51582 bytes
+19:08:19,372 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [SimpleGroovyScript_SoapUi] to [C:\Htan\Workspace\SoapUi\SimpleGroovyScript-soapui-project.xml - 28161 bytes
+19:08:19,388 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Weather Soap] to [C:\Htan\Workspace\SoapUi\Weather-Soap-soapui-project.xml - 18612 bytes
+19:08:19,403 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [REST Project 2] to [C:\Htan\Workspace\SoapUI-Tutorials\REST-Project-1-soapui-project.xml - 3722 bytes
+19:08:19,450 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [Sample SOAP Project Pro] to [C:\Htan\Workspace\SoapUI-Tutorials\Sample-SOAP-Project-soapui-project.xml - 149177 bytes
+19:08:19,466 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [C:\Htan\Workspace\default-soapui-workspace.xml]

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Google Chrome brwoser is launched.]]>
+    </line>
+    <line>
+      <![CDATA[Internet Explorer Browser is launched.]]>
+    </line>
+    <line>
+      <![CDATA[Launch yahoo.com. ]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized. ]]>
+    </line>
+    <line>
+      <![CDATA[Finance section in yahoo.com is dispalyed.]]>
+    </line>
+    <line>
+      <![CDATA[Browser driver is closed.]]>
+    </line>
+    <line>
+      <![CDATA[Launch yahoo.com. ]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized. ]]>
+    </line>
+    <line>
+      <![CDATA[Finance section in yahoo.com is dispalyed.]]>
+    </line>
+    <line>
+      <![CDATA[Browser driver is closed.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="202265" started-at="2015-08-08T10:20:00Z" finished-at="2015-08-08T10:23:22Z">
+    <groups>
+    </groups>
+    <test name="Chrome_Test" duration-ms="170566" started-at="2015-08-08T10:20:00Z" finished-at="2015-08-08T10:22:51Z">
+      <class name="actionsClass.ActionClass_DoubleClick">
+        <test-method status="PASS" signature="setup(java.lang.String)" name="setup" is-config="true" duration-ms="15009" started-at="2015-08-08T10:20:00Z" finished-at="2015-08-08T10:20:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GoogleChrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="doubleClick()" name="doubleClick" duration-ms="139921" started-at="2015-08-08T10:20:15Z" finished-at="2015-08-08T10:22:35Z">
+        </test-method>
+        <test-method status="PASS" signature="closebrowser()" name="closebrowser" is-config="true" duration-ms="15570" started-at="2015-08-08T10:22:35Z" finished-at="2015-08-08T10:22:51Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="FireFox_Test" duration-ms="60454" started-at="2015-08-08T10:20:00Z" finished-at="2015-08-08T10:21:01Z">
+      <class name="actionsClass.ActionClass_DoubleClick">
+        <test-method status="FAIL" signature="setup(java.lang.String)" name="setup" is-config="true" duration-ms="0" started-at="2015-08-08T10:20:00Z" finished-at="2015-08-08T10:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MozillaFirefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+rporation","creator":"Symantec Corporation","homepageURL":"http://www.symantec.com"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\NAV_22.5.0.124\\coFFPlgn","installDate":1439007472458,"updateDate":1439007472458,"applyBackgroundUpdates":1,"bootstrap":false,"size":2197734,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"37.0","maxVersion":"39.*"}],"targetPlatforms":[],"multiprocessCompatible":false}
+1439047232545	addons.xpi	DEBUG	New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-global
+1439047232589	addons.xpi	WARN	Disabling foreign installed add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} in winreg-app-global
+1439047232590	DeferredSave.extensions.json	DEBUG	Save changes
+1439047232591	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1439047232591	addons.xpi-utils	DEBUG	Updating add-on states
+1439047232601	addons.xpi-utils	DEBUG	Writing add-ons list
+1439047232787	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1439047232790	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 7.4.0.9058
+1439047233043	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439047233044	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439047233044	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439047233045	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439047233046	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439047233046	addons.manager	DEBUG	Starting provider: GMPProvider
+1439047233060	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439047233061	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439047233061	addons.manager	DEBUG	Starting provider: PluginProvider
+1439047233061	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439047233062	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439047233063	addons.manager	DEBUG	Completed startup sequence
+1439047236458	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1439047236458	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1439047236459	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1439047238220	DeferredSave.extensions.json	DEBUG	Starting timer
+1439047239493	DeferredSave.extensions.json	DEBUG	Starting write
+1439047240199	addons.manager	DEBUG	shutdown
+1439047240200	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1439047240201	addons.xpi	DEBUG	shutdown
+1439047240201	addons.xpi-utils	DEBUG	shutdown
+1439047240205	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1439047240207	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1439047240213	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1439047240214	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1439047242777	DeferredSave.extensions.json	DEBUG	Write succeeded
+1439047242778	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1439047242780	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1439047242798	addons.manager	DEBUG	Async provider shutdown done
+JavaScript error: resource://gre/modules/BookmarkHTMLUtils.jsm, line 883: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1984: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Htan', ip: '192.168.194.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+rporation","creator":"Symantec Corporation","homepageURL":"http://www.symantec.com"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\NAV_22.5.0.124\\coFFPlgn","installDate":1439007472458,"updateDate":1439007472458,"applyBackgroundUpdates":1,"bootstrap":false,"size":2197734,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"37.0","maxVersion":"39.*"}],"targetPlatforms":[],"multiprocessCompatible":false}
+1439047232545	addons.xpi	DEBUG	New add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} installed in winreg-app-global
+1439047232589	addons.xpi	WARN	Disabling foreign installed add-on {9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8} in winreg-app-global
+1439047232590	DeferredSave.extensions.json	DEBUG	Save changes
+1439047232591	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1439047232591	addons.xpi-utils	DEBUG	Updating add-on states
+1439047232601	addons.xpi-utils	DEBUG	Writing add-ons list
+1439047232787	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1439047232790	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 7.4.0.9058
+1439047233043	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1439047233044	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1439047233044	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1439047233045	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1439047233046	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1439047233046	addons.manager	DEBUG	Starting provider: GMPProvider
+1439047233060	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1439047233061	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1439047233061	addons.manager	DEBUG	Starting provider: PluginProvider
+1439047233061	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1439047233062	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1439047233063	addons.manager	DEBUG	Completed startup sequence
+1439047236458	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1439047236458	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1439047236459	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1439047238220	DeferredSave.extensions.json	DEBUG	Starting timer
+1439047239493	DeferredSave.extensions.json	DEBUG	Starting write
+1439047240199	addons.manager	DEBUG	shutdown
+1439047240200	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1439047240201	addons.xpi	DEBUG	shutdown
+1439047240201	addons.xpi-utils	DEBUG	shutdown
+1439047240205	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1439047240207	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1439047240213	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1439047240214	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1439047242777	DeferredSave.extensions.json	DEBUG	Write succeeded
+1439047242778	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1439047242780	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1439047242798	addons.manager	DEBUG	Async provider shutdown done
+JavaScript error: resource://gre/modules/BookmarkHTMLUtils.jsm, line 883: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1984: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Htan', ip: '192.168.194.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at actionsClass.ActionClass_DoubleClick.setup(ActionClass_DoubleClick.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:36)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:165)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Htan', ip: '192.168.194.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:131)
+	at org.openqa.selenium.firefox.FirefoxBinary.waitFor(FirefoxBinary.java:222)
+	at org.openqa.selenium.firefox.FirefoxBinary.clean(FirefoxBinary.java:242)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:91)
+	... 27 more
+Caused by: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+	at org.openqa.selenium.os.UnixProcess.waitFor(UnixProcess.java:148)
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:129)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="doubleClick()" name="doubleClick" duration-ms="12" started-at="2015-08-08T10:21:00Z" finished-at="2015-08-08T10:21:01Z">
+        </test-method>
+        <test-method status="SKIP" signature="closebrowser()" name="closebrowser" is-config="true" duration-ms="0" started-at="2015-08-08T10:21:01Z" finished-at="2015-08-08T10:21:01Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="InternetExplorer_Test" duration-ms="134557" started-at="2015-08-08T10:21:08Z" finished-at="2015-08-08T10:23:22Z">
+      <class name="actionsClass.ActionClass_DoubleClick">
+        <test-method status="PASS" signature="setup(java.lang.String)" name="setup" is-config="true" duration-ms="69960" started-at="2015-08-08T10:21:08Z" finished-at="2015-08-08T10:22:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorer]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="doubleClick()" name="doubleClick" duration-ms="62914" started-at="2015-08-08T10:22:18Z" finished-at="2015-08-08T10:23:21Z">
+        </test-method>
+        <test-method status="PASS" signature="closebrowser()" name="closebrowser" is-config="true" duration-ms="1679" started-at="2015-08-08T10:23:21Z" finished-at="2015-08-08T10:23:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

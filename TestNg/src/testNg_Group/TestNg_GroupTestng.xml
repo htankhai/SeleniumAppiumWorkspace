@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="none">
+  <test name="Test1">
+    <classes>
+      <class name="testNg_Group.TestNg_Group"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+      <groups>
+          <run>
+          <include name="secondGroup"></include>
+          </run>
+      </groups>
+    <classes>
+      <class name="testNg_Group.TestNg_Group"/>
+    </classes>
+  </test> 
+</suite> 

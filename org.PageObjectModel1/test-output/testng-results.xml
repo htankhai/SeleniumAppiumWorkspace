@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29925" started-at="2015-08-05T03:23:27Z" finished-at="2015-08-05T03:23:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29925" started-at="2015-08-05T03:23:27Z" finished-at="2015-08-05T03:23:57Z">
+      <class name="automationFrameworkExecute.TestCase_PageObjectModel">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFrameworkExecute.TestCase_PageObjectModel@256216b3]" name="beforeMethod" is-config="true" duration-ms="12771" started-at="2015-08-04T22:23:27Z" finished-at="2015-08-04T22:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="googlePageTest()[pri:0, instance:automationFrameworkExecute.TestCase_PageObjectModel@256216b3]" name="googlePageTest" duration-ms="15308" started-at="2015-08-04T22:23:40Z" finished-at="2015-08-04T22:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFrameworkExecute.TestCase_PageObjectModel@256216b3]" name="afterMethod" is-config="true" duration-ms="1812" started-at="2015-08-04T22:23:55Z" finished-at="2015-08-04T22:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automationFrameworkExecute.TestCase_PageObjectModel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

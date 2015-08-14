@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite_Module1" parallel="false">
+  <test name="ModuleTest">
+    <classes>
+      <class name="module1.ModuleTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

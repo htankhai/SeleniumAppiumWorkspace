@@ -1,0 +1,31 @@
+<suite name="Grouping Suite">
+ 
+   <test name="Grouping Test">
+ 
+      <groups>
+ 
+         <define name="All">
+ 
+	   		 <include name="Car"/>
+ 
+	   		 <include name="Scooter"/>
+ 
+		 </define>
+ 
+	 	<run>
+ 
+	   		 <include name="All"/>
+ 
+		</run>
+ 
+   	 </groups>
+ 
+	 <classes>
+ 
+	      <class name="group.Grouping" />
+ 
+	</classes>
+ 
+   </test>
+ 
+</suite>

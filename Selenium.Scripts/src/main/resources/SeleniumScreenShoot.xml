@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="SeleniumScreenShootTest">
+			<classes>
+			<class name="selenium.ScreenShootFeature.SeleniumScreenShoot" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

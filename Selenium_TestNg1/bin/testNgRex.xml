@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite One">
+  <test name="Test One" >
+  <classes>
+   <class name="TestNGPackOne.ClassOne">
+    <methods>
+     <include name=".*two.*"/>
+    </methods>
+   </class>
+   <class name="TestNGPackTwo.ClassTwo">
+    <methods>
+     <exclude name=".*two.*"/>
+    </methods>
+   </class>
+  </classes>
+ </test>
+</suite>

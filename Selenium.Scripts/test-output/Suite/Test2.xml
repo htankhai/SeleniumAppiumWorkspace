@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Htan" name="google.GoogleSearch" tests="1" failures="0" timestamp="4 Aug 2015 20:42:58 GMT" time="94.568" errors="0">
+  <testcase name="getGoogleTitle" time="82.98" classname="google.GoogleSearch"/>
+</testsuite>

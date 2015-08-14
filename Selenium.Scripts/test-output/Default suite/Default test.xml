@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Htan" name="actionsClass.ActionClass_DoubleClickTest" tests="1" failures="0" timestamp="8 Aug 2015 15:17:10 GMT" time="0.096" errors="0">
+  <testcase name="@BeforeClass setup" time="0.0" classname="actionsClass.ActionClass_DoubleClickTest">
+    <failure type="org.testng.TestNGException" message="
+Parameter &amp;apos;browser&amp;apos; is required by @Configuration on method setup
+but has not been marked @Optional or defined in C:\Users\htan\AppData\Local\Temp\testng-eclipse--1358247577\testng-customsuite.xml">
+      <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup
+but has not been marked @Optional or defined in C:\Users\htan\AppData\Local\Temp\testng-eclipse--1358247577\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:144)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:342)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:78)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:203)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:174)
+]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass closebrowser" time="0.0" classname="actionsClass.ActionClass_DoubleClickTest">
+    <skipped/>
+  </testcase>
+  <testcase name="doubleClick" time="0.019" classname="actionsClass.ActionClass_DoubleClickTest">
+    <skipped/>
+  </testcase>
+</testsuite>

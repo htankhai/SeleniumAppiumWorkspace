@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="Projects" soapui-version="4.0.1.1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="WhiteboxTrainingSoapui">C:/Htan/Workspace/SoapUi/WhiteboxTrainingSoapui-soapui-project.xml</con:project>
+  <con:project name="Mortgage_SoapUi">C:/Htan/Workspace/SoapUi/Mortgage-soapui-project.xml</con:project>
+  <con:project name="SimpleGroovyScript_SoapUi">C:/Htan/Workspace/SoapUi/SimpleGroovyScript-soapui-project.xml</con:project>
+  <con:project name="Weather Soap">C:/Htan/Workspace/SoapUi/Weather-Soap-soapui-project.xml</con:project>
+  <con:project name="REST Project 2">C:/Htan/Workspace/SoapUI-Tutorials/REST-Project-1-soapui-project.xml</con:project>
+  <con:project status="CLOSED" name="Sample Authentication Project">C:/Htan/Workspace/SoapUI-Tutorials/Sample-Authentication-Project-soapui-project.xml</con:project>
+  <con:project status="CLOSED" name="Sample REST Project">C:/Htan/Workspace/SoapUI-Tutorials/Sample-REST-Project-soapui-project.xml</con:project>
+  <con:project name="Sample SOAP Project Pro">C:/Htan/Workspace/SoapUI-Tutorials/Sample-SOAP-Project-soapui-project.xml</con:project>
+  <con:project status="CLOSED" name="Sample REST Project">C:/Htan/Workspace/SoapUI-Tutorials/Sample-REST-Project-soapui-project.xml</con:project>
+</con:soapui-workspace>

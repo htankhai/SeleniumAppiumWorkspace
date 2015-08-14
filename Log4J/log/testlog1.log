@@ -1,0 +1,170 @@
+2015-03-24 13:44:07,806 [main] INFO Google - Browser Opened
+2015-03-24 13:44:07,819 [main] INFO Google - Implicit wait given
+2015-03-24 13:44:09,929 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:44:10,007 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:44:10,100 [main] INFO Google - Url opened
+2015-03-24 13:44:10,132 [main] INFO Google - keyword type
+2015-03-24 13:44:40,861 [main] INFO Google.class - Browser Opened
+2015-03-24 13:44:40,907 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:44:42,642 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:44:42,736 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:44:42,814 [main] INFO Google.class - Url opened
+2015-03-24 13:44:42,876 [main] INFO Google.class - keyword type
+2015-03-24 13:47:06,024 [main] INFO Google.class - Browser Opened
+2015-03-24 13:47:06,042 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:47:07,814 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:47:07,909 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:47:07,987 [main] INFO Google.class - Url opened
+2015-03-24 13:47:08,003 [main] INFO Google.class - keyword type
+2015-03-24 13:48:01,371 [main] INFO Google.class - Browser Opened
+2015-03-24 13:48:01,385 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:48:03,057 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:48:03,150 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:48:03,196 [main] INFO Google.class - Url opened
+2015-03-24 13:48:03,228 [main] INFO Google.class - keyword type
+2015-03-24 13:48:27,816 [main] INFO Google.class - Browser Opened
+2015-03-24 13:48:27,834 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:48:29,309 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:48:29,389 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:48:29,451 [main] INFO Google.class - Url opened
+2015-03-24 13:48:29,483 [main] INFO Google.class - keyword type
+2015-03-24 13:49:03,576 [main] INFO Google.class - Browser Opened
+2015-03-24 13:49:03,591 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:49:05,185 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:49:05,304 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:49:05,351 [main] INFO Google.class - Url opened
+2015-03-24 13:49:05,382 [main] INFO Google.class - keyword type
+2015-03-24 13:49:32,408 [main] INFO Google.class - Browser Opened
+2015-03-24 13:49:32,421 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:49:34,170 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:49:34,252 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:49:34,362 [main] INFO Google.class - Url opened
+2015-03-24 13:49:34,409 [main] INFO Google.class - keyword type
+2015-03-24 13:51:02,833 [main] INFO Google.class - Browser Opened
+2015-03-24 13:51:02,934 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:51:04,906 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:51:05,006 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:51:05,054 [main] INFO Google.class - Url opened
+2015-03-24 13:51:05,094 [main] INFO Google.class - keyword type
+2015-03-24 13:51:23,068 [main] INFO Google.class - Browser Opened
+2015-03-24 13:51:23,089 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:51:23,090 [main] INFO Google.class - Url opened
+2015-03-24 13:51:47,375 [main] INFO Google.class - Browser Opened
+2015-03-24 13:51:47,393 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:51:47,394 [main] INFO Google.class - Url opened
+2015-03-24 13:51:47,394 [main] INFO Google.class - keyword type
+2015-03-24 13:52:15,206 [main] INFO Google.class - Browser Opened
+2015-03-24 13:52:15,235 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:52:15,235 [main] INFO Google.class - Url opened
+2015-03-24 13:52:15,235 [main] INFO Google.class - keyword type
+2015-03-24 13:52:15,235 [main] ERROR Google.class - logging erorr
+2015-03-24 13:52:40,875 [main] INFO Google.class - Browser Opened
+2015-03-24 13:52:40,897 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:52:42,817 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:52:42,895 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:52:42,942 [main] INFO Google.class - Url opened
+2015-03-24 13:52:42,988 [main] INFO Google.class - keyword type
+2015-03-24 13:53:21,182 [main] INFO Google.class - Browser Opened
+2015-03-24 13:53:21,198 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:53:22,766 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:53:22,843 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:53:22,899 [main] INFO Google.class - Url opened
+2015-03-24 13:53:22,915 [main] INFO Google.class - keyword type
+2015-03-24 13:53:27,689 [main] INFO Google.class - Browser Opened
+2015-03-24 13:53:27,710 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:53:29,447 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:53:29,513 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:53:29,560 [main] INFO Google.class - Url opened
+2015-03-24 13:53:29,591 [main] INFO Google.class - keyword type
+2015-03-24 13:56:29,168 [main] INFO Google.class.getName() - Browser Opened
+2015-03-24 13:56:29,184 [main] INFO Google.class.getName() - Implicit wait given
+2015-03-24 13:56:30,899 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:56:31,006 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:56:31,053 [main] INFO Google.class.getName() - Url opened
+2015-03-24 13:56:31,085 [main] INFO Google.class.getName() - keyword type
+2015-03-24 13:57:09,593 [main] INFO Google.class.getName() - Browser Opened
+2015-03-24 13:57:09,609 [main] INFO Google.class.getName() - Implicit wait given
+2015-03-24 13:57:11,169 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:57:11,241 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:57:11,288 [main] INFO Google.class.getName() - Url opened
+2015-03-24 13:57:11,304 [main] INFO Google.class.getName() - keyword type
+2015-03-24 13:58:52,124 [main] INFO Google.class - Browser Opened
+2015-03-24 13:58:52,139 [main] INFO Google.class - Implicit wait given
+2015-03-24 13:58:53,691 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 13:58:53,801 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 13:58:53,895 [main] INFO Google.class - Url opened
+2015-03-24 13:58:53,939 [main] INFO Google.class - keyword type
+2015-03-24 13:58:53,939 [main] INFO Google.class - Info Message!
+2015-03-24 13:58:53,944 [main] WARN Google.class - Warn Message!
+2015-03-24 13:58:53,944 [main] ERROR Google.class - Error Message!
+2015-03-24 13:58:53,944 [main] FATAL Google.class - Fatal Message!
+2015-03-24 14:03:10,253 [main] INFO Google.class - Browser Opened
+2015-03-24 14:03:10,267 [main] INFO Google.class - Implicit wait given
+2015-03-24 14:03:11,885 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 14:03:11,956 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 14:03:12,039 [main] INFO Google.class - Url opened
+2015-03-24 14:03:12,070 [main] INFO Google.class - keyword type
+2015-03-24 14:03:56,667 [main] INFO Google.class - Browser Opened
+2015-03-24 14:03:56,685 [main] INFO Google.class - Implicit wait given
+2015-03-24 14:03:58,348 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 14:03:58,438 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 14:03:58,517 [main] INFO Google.class - Url opened
+2015-03-24 14:03:58,532 [main] INFO Google.class - keyword type
+2015-03-24 14:03:58,532 [main] INFO Google.class - Info Message!
+2015-03-24 14:03:58,532 [main] WARN Google.class - Warn Message!
+2015-03-24 14:04:52,792 [main] INFO Google.class - Browser Opened
+2015-03-24 14:04:52,814 [main] INFO Google.class - Implicit wait given
+2015-03-24 14:04:54,435 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 14:04:54,528 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 14:04:54,575 [main] INFO Google.class - Url opened
+2015-03-24 14:04:54,622 [main] INFO Google.class - keyword type
+2015-03-24 14:04:54,622 [main] INFO Google.class - Info Message!
+2015-03-24 14:04:54,622 [main] WARN Google.class - Warn Message!
+2015-03-24 14:04:54,622 [main] ERROR Google.class - Error Message!
+2015-03-24 14:04:54,622 [main] FATAL Google.class - Fatal Message!
+2015-03-24 14:09:37,881 [main] INFO Google.class - Browser Opened
+2015-03-24 14:09:37,899 [main] INFO Google.class - Implicit wait given
+2015-03-24 14:09:39,857 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-24 14:09:39,934 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-24 14:09:39,996 [main] INFO Google.class - Url opened
+2015-03-24 14:09:40,032 [main] INFO Google.class - keyword type
+2015-03-24 14:09:40,032 [main] INFO Google.class - Info Message!
+2015-03-24 14:09:40,036 [main] WARN Google.class - Warn Message!
+2015-03-24 14:09:40,036 [main] ERROR Google.class - Error Message!
+2015-03-24 14:09:40,036 [main] FATAL Google.class - Fatal Message!
+2015-03-27 06:47:50,870 [main] INFO Google.class - Browser Opened
+2015-03-27 06:47:50,966 [main] INFO Google.class - Implicit wait given
+2015-03-27 06:47:55,270 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-03-27 06:47:55,377 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-27 06:47:55,430 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-03-27 06:47:55,441 [main] INFO Google.class - Url opened
+2015-03-27 06:47:55,494 [main] INFO Google.class - keyword type
+2015-03-27 06:47:55,495 [main] INFO Google.class - Info Message!
+2015-03-27 06:47:55,496 [main] WARN Google.class - Warn Message!
+2015-03-27 06:47:55,497 [main] ERROR Google.class - Error Message!
+2015-03-27 06:47:55,497 [main] FATAL Google.class - Fatal Message!
+2015-04-21 07:59:30,145 [main] INFO Google.class - Browser Opened
+2015-04-21 07:59:30,233 [main] INFO Google.class - Implicit wait given
+2015-04-21 07:59:32,423 [main] INFO Google.class - Url opened
+2015-04-21 08:41:02,630 [main] INFO Google.class - Browser Opened
+2015-04-21 08:41:02,656 [main] INFO Google.class - Implicit wait given
+2015-04-21 08:41:05,078 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-04-21 08:41:05,186 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-04-21 08:41:05,218 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-04-21 08:41:05,218 [main] INFO Google.class - Url opened
+2015-04-21 08:41:05,265 [main] INFO Google.class - keyword type
+2015-04-21 08:41:05,265 [main] INFO Google.class - Info Message!
+2015-04-21 08:41:05,265 [main] WARN Google.class - Warn Message!
+2015-04-21 08:41:05,265 [main] ERROR Google.class - Error Message!
+2015-04-21 08:41:05,280 [main] FATAL Google.class - Fatal Message!
+2015-05-06 17:41:39,535 [main] INFO Google.class - Browser Opened
+2015-05-06 17:41:39,584 [main] INFO Google.class - Implicit wait given
+2015-05-06 17:41:43,254 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userData
+2015-05-06 17:41:43,379 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-05-06 17:41:43,449 [main] WARN com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement - Unimplemented behavior: #default#userdata
+2015-05-06 17:41:43,464 [main] INFO Google.class - Url opened
+2015-05-06 17:41:43,511 [main] INFO Google.class - keyword type
+2015-05-06 17:41:43,511 [main] INFO Google.class - Info Message!
+2015-05-06 17:41:43,527 [main] WARN Google.class - Warn Message!
+2015-05-06 17:41:43,527 [main] ERROR Google.class - Error Message!
+2015-05-06 17:41:43,527 [main] FATAL Google.class - Fatal Message!

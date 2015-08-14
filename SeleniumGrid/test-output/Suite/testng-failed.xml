@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.grid.TestNGClass">
+        <methods>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="calculatepercent"/>
+        </methods>
+      </class> <!-- org.grid.TestNGClass -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.grid.TestNGClass">
+        <methods>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="calculatepercent"/>
+        </methods>
+      </class> <!-- org.grid.TestNGClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="org.grid.TestNGClass">
+        <methods>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="calculatepercent"/>
+        </methods>
+      </class> <!-- org.grid.TestNGClass -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Htan" name="actionsClass.ActionClass_DoubleClick" tests="1" failures="0" timestamp="8 Aug 2015 15:23:22 GMT" time="134.557" errors="0">
+  <testcase name="doubleClick" time="62.914" classname="actionsClass.ActionClass_DoubleClick"/>
+</testsuite>

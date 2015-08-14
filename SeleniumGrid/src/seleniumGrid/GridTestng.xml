@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Grid" verbose="5" parallel="tests" thread-count="3">
+  <test name="Grid test 1">
+      <parameter name="UN" value="Username1"/>
+      <parameter name="PWD" value="PWD1"/>  
+      <parameter name="Browser" value="firefox"/> 
+    <classes>
+      <class name="Grid"/>
+    </classes>
+  </test> <!-- Grid test -->
+    <test name="Grid test 2">
+      <parameter name="UN" value="Username2"/>
+      <parameter name="PWD" value="PWD2"/>  
+      <parameter name="Browser" value="chrome"/> 
+    <classes>
+      <class name="Grid"/>
+    </classes>
+  </test> <!-- Grid test -->
+   <test name="Grid test 3">
+       <parameter name="UN" value="Username3"/>
+      <parameter name="PWD" value="PWD3"/>  
+      <parameter name="Browser" value="IE"/> 
+    <classes>
+      <class name="Grid"/>
+    </classes>
+  </test> <!-- Grid test -->
+</suite> <!-- Testing Grid -->

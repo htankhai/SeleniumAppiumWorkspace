@@ -1,0 +1,23 @@
+<suite name="Grouping Suite">
+ 
+    <test name="Grouping Test">
+ 
+        <groups>
+ 
+	    <run>
+ 
+		<include name="Car" />
+ 
+	    </run>
+ 
+	</groups>
+ 
+	<classes>
+ 
+	    <class name="group.Grouping" />
+ 
+	</classes>
+ 
+    </test>
+ 
+</suite>

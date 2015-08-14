@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="webDriver" parallel="tests" thread-count="2">
+   <test name="Test In FireFox" >
+    <parameter name="browser" value="FFX" />
+    <classes>
+      <class name="org.testNg_parallel.Test_Parallel" />
+    </classes>
+  </test>
+   <test name="Test In Google Chrome" >
+    <parameter name="browser" value="CRM"></parameter>
+    <classes>
+      <class name="org.testNg_parallel.Test_Parallel"></class>
+    </classes>
+  </test> 
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="org.seleniumFeatures.TestListener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <classes>
+      <class name="org.seleniumFeatures.TestListener">
+        <methods>
+          <include name="onTestFailure"/>
+          <include name="onTestSuccess"/>
+          <include name="takeScreenShot"/>
+          <include name="onTestFailedButWithinSuccessPercentage"/>
+          <include name="onTestStart"/>
+          <include name="onTestSkipped"/>
+        </methods>
+      </class> <!-- org.seleniumFeatures.TestListener -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

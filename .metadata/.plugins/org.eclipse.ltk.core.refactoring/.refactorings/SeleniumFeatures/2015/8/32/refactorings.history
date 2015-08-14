@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SeleniumFeatures&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumFeatures&apos;&#x0D;&#x0A;- Original element: &apos;SeleniumFeatures/src/test/java/SeleniumFeatures_Maven.SeleniumFeatures&apos;" description="Delete element" element1="/src\/test\/java&lt;SeleniumFeatures_Maven.SeleniumFeatures" element2="/src\/test\/java&lt;SeleniumFeatures_Maven" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1439047231496" subPackages="false" version="1.0"/>
+</session>

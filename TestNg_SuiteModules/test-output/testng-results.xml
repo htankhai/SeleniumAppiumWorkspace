@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteModule3" duration-ms="16" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+    <groups>
+    </groups>
+    <test name="ModuleTest" duration-ms="16" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+      <class name="module3.ModuleTest3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:module3.ModuleTest3@64c64813]" name="test3" duration-ms="16" started-at="2015-05-17T18:02:32Z" finished-at="2015-05-17T18:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- module3.ModuleTest3 -->
+    </test> <!-- ModuleTest -->
+  </suite> <!-- SuiteModule3 -->
+  <suite name="SuiteModule4" duration-ms="16" started-at="2015-05-17T23:02:33Z" finished-at="2015-05-17T23:02:33Z">
+    <groups>
+    </groups>
+    <test name="ModuleTest" duration-ms="16" started-at="2015-05-17T23:02:33Z" finished-at="2015-05-17T23:02:33Z">
+      <class name="module4.ModuleTest4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:module4.ModuleTest4@2cfb4a64]" name="test4" duration-ms="16" started-at="2015-05-17T18:02:33Z" finished-at="2015-05-17T18:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- module4.ModuleTest4 -->
+    </test> <!-- ModuleTest -->
+  </suite> <!-- SuiteModule4 -->
+  <suite name="SuiteModule5" duration-ms="16" started-at="2015-05-17T23:02:33Z" finished-at="2015-05-17T23:02:33Z">
+    <groups>
+    </groups>
+    <test name="ModuleTest" duration-ms="16" started-at="2015-05-17T23:02:33Z" finished-at="2015-05-17T23:02:33Z">
+      <class name="module5.ModuleTest5">
+        <test-method status="PASS" signature="test5()[pri:0, instance:module5.ModuleTest5@233c0b17]" name="test5" duration-ms="0" started-at="2015-05-17T18:02:33Z" finished-at="2015-05-17T18:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- module5.ModuleTest5 -->
+    </test> <!-- ModuleTest -->
+  </suite> <!-- SuiteModule5 -->
+  <suite name="Suite_Module2" duration-ms="16" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+    <groups>
+    </groups>
+    <test name="ModuleTest" duration-ms="16" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+      <class name="module2.ModuleTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:module2.ModuleTest2@2ac1fdc4]" name="test2" duration-ms="0" started-at="2015-05-17T18:02:32Z" finished-at="2015-05-17T18:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- module2.ModuleTest2 -->
+    </test> <!-- ModuleTest -->
+  </suite> <!-- Suite_Module2 -->
+  <suite name="All Suite Files" duration-ms="0" started-at="2015-05-17T23:02:33Z" finished-at="2015-05-17T23:02:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- All Suite Files -->
+  <suite name="Suite_Module1" duration-ms="62" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+    <groups>
+    </groups>
+    <test name="ModuleTest" duration-ms="62" started-at="2015-05-17T23:02:32Z" finished-at="2015-05-17T23:02:32Z">
+      <class name="module1.ModuleTest1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:module1.ModuleTest1@449b2d27]" name="test1" duration-ms="31" started-at="2015-05-17T18:02:32Z" finished-at="2015-05-17T18:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- module1.ModuleTest1 -->
+    </test> <!-- ModuleTest -->
+  </suite> <!-- Suite_Module1 -->
+</testng-results>

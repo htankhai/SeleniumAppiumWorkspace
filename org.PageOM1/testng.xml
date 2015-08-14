@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<parameter name="appURL" value="https://www.google.co.in/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="sample test">
+    <classes>
+      <class name="org.pom.tests.BasePageTest"/>
+      <class name="org.pom.tests.SignInPageTest"/>
+      <class name="org.pom.tests.CreateAnAccounTest"/>
+    </classes>
+  </test>
+</suite>

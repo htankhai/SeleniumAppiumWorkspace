@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Application started]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65920" started-at="2015-05-22T15:54:03Z" finished-at="2015-05-22T15:55:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65920" started-at="2015-05-22T15:54:03Z" finished-at="2015-05-22T15:55:09Z">
+      <class name="reporter.ReporterDemo">
+        <test-method status="PASS" signature="testReport()[pri:0, instance:reporter.ReporterDemo@5a42bbf4]" name="testReport" duration-ms="65889" started-at="2015-05-22T10:54:03Z" finished-at="2015-05-22T10:55:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Browser Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Application started]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testReport -->
+      </class> <!-- reporter.ReporterDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

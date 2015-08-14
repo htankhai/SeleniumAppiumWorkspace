@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="77326" started-at="2015-04-19T16:47:58Z" finished-at="2015-04-19T16:49:16Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="77326" started-at="2015-04-19T16:47:58Z" finished-at="2015-04-19T16:49:16Z">
+      <class name="org.pom.tests.SignInPageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:org.pom.tests.SignInPageTest@71e7a66b]" name="initializeTestBaseSetup" is-config="true" duration-ms="13967" started-at="2015-04-19T11:48:29Z" finished-at="2015-04-19T11:48:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="verifySignInFunction()[pri:0, instance:org.pom.tests.SignInPageTest@71e7a66b]" name="verifySignInFunction" duration-ms="11998" started-at="2015-04-19T11:48:43Z" finished-at="2015-04-19T11:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInFunction -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.pom.tests.SignInPageTest@71e7a66b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-19T11:48:43Z" finished-at="2015-04-19T11:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.pom.tests.SignInPageTest@71e7a66b]" name="tearDown" is-config="true" duration-ms="891" started-at="2015-04-19T11:48:55Z" finished-at="2015-04-19T11:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.pom.tests.SignInPageTest -->
+      <class name="org.pom.tests.BasePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:org.pom.tests.BasePageTest@2471cca7]" name="initializeTestBaseSetup" is-config="true" duration-ms="28808" started-at="2015-04-19T11:47:58Z" finished-at="2015-04-19T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.pom.tests.BasePageTest@2471cca7]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-19T11:48:27Z" finished-at="2015-04-19T11:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:org.pom.tests.BasePageTest@2471cca7]" name="verifyHomePage" duration-ms="661" started-at="2015-04-19T11:48:27Z" finished-at="2015-04-19T11:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.pom.tests.BasePageTest@2471cca7]" name="tearDown" is-config="true" duration-ms="719" started-at="2015-04-19T11:48:28Z" finished-at="2015-04-19T11:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.pom.tests.BasePageTest -->
+      <class name="org.pom.tests.CreateAnAccounTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:org.pom.tests.CreateAnAccounTest@2ac1fdc4]" name="initializeTestBaseSetup" is-config="true" duration-ms="12936" started-at="2015-04-19T11:48:56Z" finished-at="2015-04-19T11:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.pom.tests.CreateAnAccounTest@2ac1fdc4]" name="setUp" is-config="true" duration-ms="0" started-at="2015-04-19T11:49:08Z" finished-at="2015-04-19T11:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateAnAccounPage()[pri:0, instance:org.pom.tests.CreateAnAccounTest@2ac1fdc4]" name="verifyCreateAnAccounPage" duration-ms="6133" started-at="2015-04-19T11:49:08Z" finished-at="2015-04-19T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAnAccounPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.pom.tests.CreateAnAccounTest@2ac1fdc4]" name="tearDown" is-config="true" duration-ms="1166" started-at="2015-04-19T11:49:15Z" finished-at="2015-04-19T11:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.pom.tests.CreateAnAccounTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="5" name="Failed suite [Testing Grid]" parallel="tests">
+  <parameter name="UN" value="htan.khai@yahoo.com"/>
+  <parameter name="PWD" value="Thisismine13"/>
+  <parameter name="Browser" value="IE"/>
+  <test name="Grid test 3(failed)" parallel="tests">
+    <parameter name="UN" value="htan.khai@yahoo.com"/>
+    <parameter name="PWD" value="Thisismine13"/>
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="grid.Grid">
+        <methods>
+          <include name="loginToFB"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+        </methods>
+      </class> <!-- grid.Grid -->
+    </classes>
+  </test> <!-- Grid test 3(failed) -->
+  <test name="Grid test 2(failed)" parallel="tests">
+    <parameter name="UN" value="htan.khai@yahoo.com"/>
+    <parameter name="PWD" value="Thisismine13"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="grid.Grid">
+        <methods>
+          <include name="loginToFB"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+        </methods>
+      </class> <!-- grid.Grid -->
+    </classes>
+  </test> <!-- Grid test 2(failed) -->
+  <test name="Grid test 1(failed)" parallel="tests">
+    <parameter name="UN" value="htan.khai@yahoo.com"/>
+    <parameter name="PWD" value="Thisismine13"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="grid.Grid">
+        <methods>
+          <include name="loginToFB"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+          <include name="Testing"/>
+        </methods>
+      </class> <!-- grid.Grid -->
+    </classes>
+  </test> <!-- Grid test 1(failed) -->
+</suite> <!-- Failed suite [Testing Grid] -->

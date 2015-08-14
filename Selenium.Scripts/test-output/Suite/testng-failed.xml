@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="InternetExplorer"/>
+  <test name="FireFox_Test(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="MozillaFirefox"/>
+    <classes>
+      <class name="actionsClass.ActionClass_DoubleClick">
+        <methods>
+          <include name="setup"/>
+          <include name="doubleClick"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

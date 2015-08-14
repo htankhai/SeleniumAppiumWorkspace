@@ -1,0 +1,101 @@
+package actionsClass;
+//CrossBrowsers
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class ActionClass_DoubleClickTest {
+	WebDriver driver = null;
+
+	@BeforeClass
+	//parameter value will retrieved from testng.xml file's <parameter> tag.
+	@Parameters ({"browser"})
+	public void setup(String browser){//Method will pass value of parameter.
+		if (browser.equals("MozillaFirefox")) {
+			System.out.println("Test Starts Running In Firefox Browser.");
+					
+			driver = new FirefoxDriver();   
+			Reporter.log("Mozilla Firefox Brwoser is opend.");
+			
+		}else if (browser.equals("GoogleChrome")){
+			System.out.println("Test Starts Running In Google chrome.");
+			System.setProperty("webdriver.chrome.driver", 	"C:\\Users\\htan\\Software Library\\chromedriver.exe");
+			driver = new ChromeDriver();   
+			Reporter.log("Google Chrome brwoser is launched.");
+		}
+		else if(browser.equalsIgnoreCase("InternetExplorer")){
+			System.out.println("Test Starts Running In Internet Explorer.");
+			System.setProperty("webdriver.ie.driver","C:\\Users\\htan\\Software Library\\IEDriverServer.exe");
+			DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
+			dc.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);  //If IE fail to work, please remove this and remove enable protected mode for all the 4 zones from Internet options
+			driver = new InternetExplorerDriver(dc);
+			
+			Reporter.log("Internet Explorer Browser is launched.");
+		}
+
+		else{
+			try {
+				throw new Exception("Browser is not correct");
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+
+	@Test
+	public void doubleClick(){
+		driver.get("https://www.yahoo.com/");
+		System.out.println("Launch yahoo.com");
+		
+		Reporter.log("Launch yahoo.com. ");
+		
+		driver.manage().window().maximize();
+		
+		Reporter.log("Browser is maximized. ");
+		
+		//finance section
+		WebElement ele = driver.findElement(By.xpath("//*[@id='default-p_30345789-bd']/ul[1]/li[4]/a/span"));
+		
+		Reporter.log("Finance section in yahoo.com is dispalyed.");
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		//WebElement ele = driver.findElement(By.xpath("//button[contains(.,'Double-Click Alert')]"));
+		{
+			//To generate double click action on "Double-Click Alert" button.
+			Actions action = new Actions(driver);
+			action.doubleClick(ele).perform();
+
+		}
+
+	}
+
+
+	@AfterClass 
+	public void closebrowser(){
+		driver.close();
+		driver.quit();  
+		
+		Reporter.log("Browser driver is closed.");
+	}
+
+}
+
+//<suiteXmlFile>src/main/resources/ActionClassTestNg.xml</suiteXmlFile>

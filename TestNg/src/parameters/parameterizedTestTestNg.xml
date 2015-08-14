@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+  <parameter name="para1" value="Htan" />
+    <parameter name="para2" value="Khai" />
+      <parameter name="para3" value="Java SE Version" />
+      <parameter name="para4" value="7.0" />
+    <classes>
+      <class name="parameters.ParameterizedTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

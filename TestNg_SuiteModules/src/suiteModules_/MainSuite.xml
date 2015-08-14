@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="All Suite Files">
+	<suite-files>
+		<suite-file path="SuiteModule1.xml" />
+		<suite-file path="SuiteModule2.xml" />
+		<suite-file path="SuiteModule3.xml" />
+		<suite-file path="SuiteModule4.xml" />
+		<suite-file path="SuiteModule5.xml" />
+	</suite-files> <!-- Suite files -->
+</suite> <!-- Suite -->
